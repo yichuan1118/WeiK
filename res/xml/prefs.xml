@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Functional Settings" >
+        <EditTextPreference
+            android:key="key_caching_freq"
+            android:summary="Caching frequency in Minutes"
+            android:title="Caching Frequency" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

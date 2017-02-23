@@ -1,0 +1,17 @@
+
+server {
+	server_name weik.metaisle.com;
+	access_log /var/log/nginx/weik.access.log;
+	error_log /var/log/nginx/weik.error.log;
+
+	root /var/www/weik.metaisle.com;
+}
+
+
+server {
+	server_name metaisle.com www.metaisle.com;
+	access_log /var/log/nginx/metaisle.access.log;
+	error_log /var/log/nginx/metaisle.error.log;
+
+	root /var/www/metaisle.com;
+}

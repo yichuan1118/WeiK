@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_left"
+        android:icon="@drawable/ic_action_left"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_comment"
+        android:icon="@drawable/ic_action_comment"
+        android:orderInCategory="2"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_retweet"
+        android:icon="@drawable/ic_action_retweet"
+        android:orderInCategory="3"
+        android:showAsAction="always"/>
+
+</menu>

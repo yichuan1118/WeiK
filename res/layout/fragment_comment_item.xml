@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".fragment.StatusFragment" >
+
+    <RelativeLayout
+        android:id="@+id/status_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/profile_image"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile_image"
+            android:text="@+id/user_name"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/time_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@+id/time_span"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#736F6E" />
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/profile_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@+id/status_text"
+            android:textSize="17.0sp" />
+
+        <ImageView
+            android:id="@+id/comment_reply_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/time_span"
+            android:layout_marginTop="10dip"
+            android:src="@drawable/ic_tab_comment_unselected" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/retweet_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status_container"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_default" >
+
+
+            <TextView
+                android:id="@+id/rt_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@+id/rt_user_name"
+                android:textSize="17.0sp" />
+
+            <TextView
+                android:id="@+id/rt_status_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/rt_user_name"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingBottom="10dp"
+                android:text="@+id/rt_status_text"
+                android:textSize="17.0sp" />
+        </RelativeLayout>
+
+</RelativeLayout>

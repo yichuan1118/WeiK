@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@style/Holo.Theme.Sherlock.Light">
+<!--         <item name="actionBarTabStyle">@style/AppTheme.TabView</item> -->
+    </style>
+
+<!--     <style name="AppTheme.TabView" parent="Widget.Sherlock.ActionBar.TabView"> -->
+<!--         <item name="android:gravity">center</item> -->
+<!--         <item name="android:background">@drawable/vpi__tab_indicator</item> -->
+<!--         <item name="android:paddingLeft">22dip</item> -->
+<!--         <item name="android:paddingRight">22dip</item> -->
+<!--         <item name="android:paddingTop">12dp</item> -->
+<!--         <item name="android:paddingBottom">12dp</item> -->
+<!--         <item name="android:textSize">12sp</item> -->
+<!--         <item name="android:maxLines">1</item> -->
+<!--     </style> -->
+
+<!--     <style name="AppTheme.Dialog" parent="@style/Theme.HoloEverywhereLight.Sherlock"> -->
+<!--         <item name="android:alertDialogStyle">@style/AlertDialogHoloMix</item> -->
+<!--     </style> -->
+
+<!--     <style name="AlertDialogHoloMix" parent="AlertDialogHoloLight"></style> -->
+
+</resources>
